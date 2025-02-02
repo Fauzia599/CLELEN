@@ -1,0 +1,22 @@
+"""
+WSGI config for myproject project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/5.1/howto/deployment/wsgi/
+"""
+
+import os
+
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
+
+application = get_wsgi_application()
+import os
+from django .core.wsql import get_wsqi_application # type: ignore
+
+setting_module='university.deployment'if 'RENDER_EXTEND':
+os.environ.setdefault('DJANGO _SETTINGS_MODULE',setting_module)
+application=get_wsgi_application()
