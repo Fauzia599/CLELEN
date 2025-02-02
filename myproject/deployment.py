@@ -11,7 +11,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 
 MIDDLEWARE = [
-    "django.middleware.security.SecurityMiddleware"
+    "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
